@@ -1,6 +1,6 @@
 {
-  "name": "Wordle Sanskrit",
-  "homepage": "https://skalyan91.github.io/wordle-sanskrit",
+  "name": "Gita-Wordle",
+  "homepage": "https://skalyan91.github.io/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -14,13 +14,13 @@
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.1",
+    "copy-to-clipboard": "^3.3.1",
     "react": "^17.0.2",
     "react-countdown": "^2.3.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "typescript": "^4.5.4",
-    "copy-to-clipboard": "^3.3.1",
     "react-ga": "^3.3.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.5.4",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
