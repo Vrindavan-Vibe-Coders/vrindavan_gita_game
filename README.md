@@ -8,7 +8,8 @@ _To Run Locally:_
 Clone the repository and perform the following command line actions:
 
 ```bash
-$ cd wordle
+$ git clone https://github.com/Vrindavan-Vibe-Coders/vrindavan_gita_game.git
+$ cd vrindavan_gita_game
 $ npm install
 $ npm run start
 ```
