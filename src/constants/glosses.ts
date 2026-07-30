@@ -1,5 +1,5 @@
 export const GLOSSES: Record<string, string> = {
-  akaṭa: 'not made; not artificial, natural',
+  pārtha: 'not made; not artificial, natural',
   akaṇa: 'without bran; with the bran removed',
   akata: 'not done',
   akāca: 'without impurity, without flaw; pure, clear; smooth',
