@@ -22,7 +22,22 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to Play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-900">
-        Every day we have a new Pali term and you have six tries to guess it.
+          <strong>Guide to Input Scheme:</strong>
+	   <br />
+	   Retroflex consonants (mūrdhanya) : ṭ as in aṭa
+	   <br />
+	   Long vowels (dīrgha svara) : ā as in rāma
+	   <br />
+	   Nasals with diacritics : ñ as in añjali
+	   <br />
+	   Sibilants : ś as in śiva
+	   <br />
+           Type accented characters by hitting the period, hyphen, or tilde key after the letter.
+	   <br />
+      </p>
+      <p className="text-sm text-gray-900">
+	<br />
+        Every day we have a new Bhagavad Gita Word from a wordlist and you have six tries to guess it.
         Type a guess and hit enter (⏎) to submit.
       </p>
       <div className="flex justify-center mb-1 mt-4">
@@ -43,8 +58,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-700">
         Blue means that you have the wrong form of the letter, but it's in the
         correct spot. For example, maybe it shouldn't be retroflex (ṭ) or maybe
-        it needs to be long (ā). Type accented characters by hitting the period,
-        hyphen, or tilde key after the letter.
+        it needs to be long (ā). 
       </p>
 
       <div className="flex justify-center mb-1 mt-4">

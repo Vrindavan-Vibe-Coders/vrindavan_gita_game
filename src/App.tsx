@@ -313,7 +313,7 @@ function App() {
       <Alert message="Too short!" isOpen={isNotEnoughLetters} />
       <Alert message={redundancyWarning} isOpen={redundancyWarning !== ''} />
       <Alert
-        message="That isn't in the PED..."
+        message="That isn't in the Bhagavad Gita Word list..."
         isOpen={isWordNotFoundAlertOpen}
       />
       <Alert message={infoMessage} isOpen={infoMessage !== ''} variant="info" />
